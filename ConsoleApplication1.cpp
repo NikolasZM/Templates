@@ -58,9 +58,12 @@ int main()
 
     int valor;
     bool flag{ true };
+
     while (flag) {
         flag = p.pop(valor);
+
         if (flag) cout << valor << "\n";
+
     }
 
 
